@@ -1,0 +1,1 @@
+function e(e,t=`這次沒有成功完成。請再試一次。`){return e instanceof Error&&e.message.trim()?e.name===`QuotaExceededError`?`此裝置的可用空間不足。你可以先減少照片，或匯出並清理不需要的資料。`:e.name===`SecurityError`?`瀏覽器目前不允許使用本機儲存空間。請檢查網站資料與隱私設定。`:e.message:typeof e==`string`&&e.trim()?e:t}export{e as t};

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="留光">
+  <rect width="64" height="64" rx="16" fill="#F7F5F1"/>
+  <circle cx="32" cy="28" r="22" fill="#C7A989" opacity=".12"/>
+  <circle cx="32" cy="24" r="13" fill="#D8A969" opacity=".22"/>
+  <path d="M32 12c5 6 8 9.5 8 14a8 8 0 0 1-16 0c0-4.5 3-8 8-14Z" fill="#D8A969"/>
+  <path d="M32 17c2.6 3.2 4.2 5.2 4.2 7.7a4.2 4.2 0 1 1-8.4 0c0-2.5 1.6-4.5 4.2-7.7Z" fill="#FFF4D6"/>
+  <rect x="27" y="31" width="10" height="21" rx="4" fill="#788A7B"/>
+  <rect x="29" y="34" width="2.4" height="12" rx="1.2" fill="#FFFEFC" opacity=".35"/>
+  <ellipse cx="32" cy="52" rx="12" ry="2.2" fill="#292B2A" opacity=".1"/>
+</svg>

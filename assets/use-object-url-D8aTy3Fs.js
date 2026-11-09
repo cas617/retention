@@ -1,0 +1,1 @@
+import{g as e,p as t}from"./jsx-runtime-PpCcmTI6.js";var n=e(t(),1);function r(e){let[t,r]=(0,n.useState)();return(0,n.useEffect)(()=>{if(!e){r(void 0);return}let t=URL.createObjectURL(e);return r(t),()=>URL.revokeObjectURL(t)},[e]),t}export{r as t};

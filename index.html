@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#F7F5F1" />
+    <meta
+      name="description"
+      content="留光是一個替離世毛孩保留位置、替想念留一盞燈的地方。回憶與照片預設只保存在你的裝置。"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <title>留光 — 替想念留一個位置</title>
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('staylight-theme') || 'light';
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme =
+            theme === 'dark' || (theme === 'system' && prefersDark) ? 'dark' : 'light';
+          if (localStorage.getItem('staylight-reduce-motion') === 'true') {
+            document.documentElement.dataset.reduceMotion = 'true';
+          }
+        } catch (error) {
+          /* 主題偏好讀取失敗時沿用預設淺色。 */
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CBz8TBab.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-PpCcmTI6.js">
+    <link rel="modulepreload" crossorigin href="/assets/x-HbwhzgRy.js">
+    <link rel="modulepreload" crossorigin href="/assets/Button-Co3D4y8g.js">
+    <link rel="modulepreload" crossorigin href="/assets/IconButton-CnCOpTws.js">
+    <link rel="modulepreload" crossorigin href="/assets/use-object-url-D8aTy3Fs.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-B1SMhefN.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
